@@ -23,6 +23,7 @@ const options = {
   checkOSTheme: false
 };
 
+isNightMode(); // without passing options => default options
 isNightMode(options); // should return a boolean
 ```
 
