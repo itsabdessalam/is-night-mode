@@ -1,0 +1,36 @@
+{
+  "name": "is-night-mode",
+  "version": "1.0.0",
+  "description": "Check if is night mode",
+  "main": "index.js",
+  "scripts": {
+    "test": "ava"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abdessalamb98/is-night-mode.git"
+  },
+  "keywords": [
+    "mode",
+    "darkmode",
+    "dark",
+    "night",
+    "nightmode",
+    "javascript"
+  ],
+  "author": "Abdessalam BENHARIRA <belmehelabdessalam.benharira@ynov.com> ()",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/abdessalamb98/is-night-mode/issues"
+  },
+  "homepage": "https://github.com/abdessalamb98/is-night-mode#readme",
+  "ava": {
+    "require": [
+      "./test.js"
+    ]
+  },
+  "devDependencies": {
+    "ava": "^2.4.0",
+    "jsdom": "^15.2.1"
+  }
+}
