@@ -23,8 +23,10 @@ const options = {
   checkOSTheme: false
 };
 
-isNightMode(); // without passing options => default options
-isNightMode(options); // should return a boolean
+isNightMode(); // without passing options default options are defined
+//=> true || false
+isNightMode(options); // with passing custom options
+//=> true || false
 ```
 
 ## License
