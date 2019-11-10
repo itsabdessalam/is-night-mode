@@ -1,4 +1,4 @@
-# is-night-mode
+# is-night-mode [![Build Status](https://travis-ci.com/abdessalamb98/is-night-mode.svg?branch=master)](https://travis-ci.com/abdessalamb98/is-night-mode)
 
 > Check if is night mode
 
