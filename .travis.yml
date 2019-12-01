@@ -4,9 +4,8 @@ node_js:
   - "10"
 jobs:
   include:
-    - stage: Install
-      script: npm install
     - stage: Build
-      script: npm run build
-    - stage: Test
-      script: npm run test
+      script:
+        - npm install
+        - npm run build
+        - npm run test
