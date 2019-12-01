@@ -6,6 +6,6 @@ jobs:
   include:
     - stage: Build
       script:
-        - npm install
+        - rm -f package-lock.json && npm install
         - npm run build
         - npm run test
