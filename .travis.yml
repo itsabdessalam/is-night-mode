@@ -2,4 +2,11 @@ language: node_js
 node_js:
   - "8"
   - "10"
-script: npm run test
+jobs:
+  include:
+    - stage: Install
+      script: npm install
+    - stage: Build
+      script: npm run build
+    - stage: Test
+      script: npm run test
