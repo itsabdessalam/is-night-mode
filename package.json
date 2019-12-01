@@ -1,10 +1,12 @@
 {
   "name": "is-night-mode",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Check if is night mode",
   "main": "index.js",
   "scripts": {
-    "test": "ava"
+    "test": "ava",
+    "build-dev": "NODE_ENV=development rollup -c",
+    "build-prod": "NODE_ENV=production rollup -c"
   },
   "repository": {
     "type": "git",
@@ -30,7 +32,16 @@
     ]
   },
   "devDependencies": {
+    "@babel/core": "^7.7.4",
+    "@babel/preset-env": "^7.7.4",
     "ava": "^2.4.0",
-    "jsdom": "^15.2.1"
-  }
+    "jsdom": "^15.2.1",
+    "rollup": "^1.10.1",
+    "rollup-plugin-babel": "^4.3.3",
+    "rollup-plugin-commonjs": "^9.3.4",
+    "rollup-plugin-copy": "^3.1.0",
+    "rollup-plugin-node-resolve": "^5.0.0",
+    "rollup-plugin-terser": "^4.0.4"
+  },
+  "dependencies": {}
 }
